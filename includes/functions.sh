@@ -173,7 +173,7 @@ installtask() {
 					fi
 					php="php5"
 					phpconf="/etc/php5"
-					phplib="$phplib/"
+					phplib="/var/lib/php5"
 					sqlite="sqlite"
 					openjdk="openjdk-7"
 					jetty_name="jetty8"
@@ -194,7 +194,7 @@ installtask() {
 					fi
 					php="php5"
 					phpconf="/etc/php5"
-					phplib="$phplib/"
+					phplib="/var/lib/php5"
 					sqlite="sqlite"
 					openjdk="openjdk-7"
 					jetty_name="jetty"
